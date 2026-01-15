@@ -34,6 +34,9 @@
 		"wrangler": "4.56.0"
 	},
 	"private": true,
+	"engines": {
+		"node": "22.x"
+	},
 	"scripts": {
 		"build": "tsc -b && vite build",
 		"cf-typegen": "wrangler types",
